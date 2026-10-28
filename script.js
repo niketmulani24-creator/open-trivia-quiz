@@ -289,3 +289,12 @@ function playAgain() {
 startButton.addEventListener("click", startQuiz);
 nextButton.addEventListener("click", nextQuestion);
 playAgainButton.addEventListener("click", playAgain);
+
+const resetHighScoreButton =
+    document.getElementById("resetHighScoreButton");
+
+resetHighScoreButton.addEventListener("click", function () {
+    localStorage.removeItem("triviaHighScore");
+
+    highScoreDisplay.textContent = "Highest score: 0 / 10";
+});
