@@ -2,6 +2,14 @@
 
 An interactive trivia quiz built using HTML, CSS, JavaScript, and the Open Trivia Database API.
 
+## Screenshots
+
+### Home Screen
+![Quiz Home Screen](1.png)
+
+### Quiz Question
+![Quiz Question Screen](2.png)
+
 ## Features
 
 - Multiple trivia categories
