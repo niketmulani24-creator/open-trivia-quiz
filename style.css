@@ -1,0 +1,104 @@
+
+/* Overall page design */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #10101b, #29204b);
+    color: white;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #a78bfa;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #d1d1e0;
+    line-height: 1.6;
+}
+
+/* Dropdown labels */
+label {
+    display: block;
+    max-width: 420px;
+    margin: 20px auto 8px;
+    font-weight: bold;
+}
+
+/* Category and difficulty dropdowns */
+select {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #65568f;
+    background: #24243a;
+    color: white;
+    font-size: 16px;
+}
+
+/* Start Quiz button */
+button {
+    display: block;
+    margin: 28px auto;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 10px;
+    background: #a78bfa;
+    color: #171326;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #c4b5fd;
+    transform: translateY(-2px);
+}
+[hidden] {
+    display: none !important;
+}
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    color: #facc15;
+    text-align: center;
+}
+
+
+#review-area {
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: left;
+}
+
+#review-area > div {
+    background-color: #24213b;
+    border: 1px solid #66528f;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 14px;
+}
+
+#review-area h4 {
+    color: #b69aff;
+    margin-top: 0;
+}
+
+#review-area p {
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+}
